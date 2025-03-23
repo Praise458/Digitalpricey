@@ -1,0 +1,32 @@
+.text-up {
+  opacity: 0; /* Initially hidden */
+  transform: translateY(20px); /* Move down */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.text-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+p
+     {background-color: black; 
+     color: white;
+     align: left;
+       } 
+     button
+     {background-color: #ff0073;
+     color: white;
+     border-radius: 10px;
+     border-color: #ff0073;
+     display: hover;
+       }
+     body
+     {background-color: black;
+     color: white;
+       }
+       
+       footer
+       {color:#ffffff;
+       background-color:violet;
+       font-size:10px;}
